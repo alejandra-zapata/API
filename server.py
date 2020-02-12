@@ -1,4 +1,4 @@
-from flask import (Flask, render_template, redirect, request, flash, session, jsonify, g)
+from flask import (Flask, request, jsonify)
 from model import (Program, Section, Activity, Answer, db, connect_to_db)
 from jinja2 import StrictUndefined
 from flask_debugtoolbar import DebugToolbarExtension
