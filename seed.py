@@ -103,8 +103,8 @@ def example_data():
     db.session.add_all([first_program, second_program, third_program, fourth_program, section_1, section_2, section_3, section_4, section_5, section_6, section_7, section_8, section_9, section_10, activity_1, activity_2, answer_1])
     db.session.commit()
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
 
-        from server import app
-        connect_to_db(app)
-        print("Connected to DB.")
+    from server import app
+    connect_to_db(app)
+    print("Connected to DB.")
