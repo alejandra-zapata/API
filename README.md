@@ -33,3 +33,17 @@ Now, quit interactive mode. Start up the flask server:
 python server.py
 ~~~
 Go to localhost:5000 with an active internet connection to use the web app.
+
+## Routes
+
+~~~
+/programs
+
+/programs/<int:id>
+
+/programs/<int:program_id>/sections/
+
+/sections/<int:id>/
+
+/sections/<int:section_id>/activities/
+
